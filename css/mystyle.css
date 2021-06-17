@@ -1,0 +1,54 @@
+.course {
+  padding: 2em;
+  list-style-type: none;
+}
+.course li .point {
+  padding: 0.5em;
+  border: 1px solid #fff7f7;
+  background: -moz-linear-gradient(
+    90deg,
+    #158cba 10%,
+    #1dc0ff 86%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    90deg,
+    color-stop(10%, 158cba),
+    color-stop(86%, 1dc0ff)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    90deg,
+    #158cba 10%,
+    #1dc0ff 86%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    90deg,
+    #158cba 10%,
+    #1dc0ff 86%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(90deg, #158cba 10%, #1dc0ff 86%); /* IE10+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1301FE', endColorstr='#F4F60C', GradientType='1'); /* for IE */
+  background: linear-gradient(90deg, #158cba 10%, #1dc0ff 86%); /* W3C */
+}
+.point {
+  color: #fff;
+}
+
+.hide {
+  display: none;
+}
+.course li .course-content {
+  border: 1px solid #fff7f7;
+  padding: 1em;
+}
+.footer {
+  font-weight: 700;
+  margin: 1em 0;
+  color: #fff;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 1em 0;
+}
